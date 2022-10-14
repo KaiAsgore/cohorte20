@@ -1,0 +1,1 @@
+alert("Nombre: Erick, número favorito: 13; Tienes mascotas: sí ")
