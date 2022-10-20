@@ -8,3 +8,14 @@ p{
 #seccion{
     background-color: purple;
 }
+#titulo2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: salmon;
+    background-color: aqua;
+}
+#ejemploCaja {
+    border: 3px solid green;
+    padding: 5px;
+    margin-top: 60px;
+}
