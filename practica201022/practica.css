@@ -1,0 +1,17 @@
+h1 {
+    font-size: xx-large;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 8px solid rebeccapurple;
+}
+img{
+    height: 350px;
+    width: 400px;
+    margin: 30px;
+}
+p{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid red 3px;
+    padding: 30px;
+}
