@@ -2,3 +2,9 @@ p{
     font-size: large;
     color: purple;
 }
+.titulo {
+    background-color: whitesmoke;
+}
+#seccion{
+    background-color: purple;
+}
