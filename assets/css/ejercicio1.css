@@ -1,0 +1,42 @@
+h1 {
+    background-color: grey;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: row;
+    margin: 0%;
+}
+#divMain{
+    height: 300px;
+    width: 600px;
+    
+}
+ul{
+    background-color: lime;
+    margin: 0%;
+}
+h2{
+    margin: 0%;
+    background-color: yellow;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+}
+#primero {
+    background-color: yellow;
+    margin: 0%;
+
+}
+#related{
+    background-color: grey;
+    margin: 0%;
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin: 0%;
+}
+div {
+    background-color: rgba(120, 120, 120,);
+    margin: 0%;
+    padding: 10px;
+}
