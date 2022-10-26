@@ -1,0 +1,31 @@
+#whole{
+    border: solid aquamarine 5px;
+    background-color: green;
+    color: white;
+    height: 350px;
+    width: 350px;
+    border-radius: 2px;
+}
+
+input{
+    border: solid red 2px;
+    display: inline-block;
+    
+}
+#boton {
+    border: 0ch;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 2px;
+}
+label {
+    display: inline-block;
+    width: 80px;
+    
+}
+div {
+    display: inline-block;
+}
+form {
+    display: inline-block;
+}
