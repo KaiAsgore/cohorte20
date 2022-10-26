@@ -1,0 +1,25 @@
+div {
+    border: solid blue 2px;
+    height: 200px;
+    width: 200px;
+    font-size: xx-large;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.uno {
+    background-color: blue;
+    position: relative;
+    /* Relative se mueve  con respecto a la posición 
+    original del objeto. */
+    top: -50px;
+    /* right: 100px; */
+    left: -100px;
+    bottom: 50px;
+    right: 100px;
+}
+.dos {
+    background-color: red;
+}
+.tres {
+    background-color: green;
+}
