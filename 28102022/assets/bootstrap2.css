@@ -1,0 +1,17 @@
+.card {
+    border: solid black 1px ;
+    border-radius: 6px;
+
+}
+.card-img-top {
+    height: 140px;
+    align-self: center;
+    border-radius: 6px;
+}
+.altura-img {
+    height: 100vh;
+    /* Viewport height */
+}
+#whole {
+    display: inline-block;
+}
