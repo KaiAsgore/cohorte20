@@ -8,7 +8,48 @@
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <!-- iNICIA CARRUSEL -->
+    
+    <!-- Inicia Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid d-flex">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://mexico.generation.org/">Cursos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+<!--           <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- NAVBAR ends -->
+
+    <!-- Carroussel starts -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -35,40 +76,8 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <!-- Inician tarjetas -->
-    <h1>Tarjetas</h1>
-    <span id="whole">
-    <div class="card" style="width: 18rem;">
-        <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/01/Tengen-Uzui.png" class="card-img-top" alt="Uzui">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/07/rengoku-cosplay-waifus-de-Kimetsu-no-yaiba.jpg?fit=1280%2C720&quality=80&ssl=1" class="card-img-top" alt="rengoku">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/03/Kimetsu-no-Yaiba-Asi%CC%81-era-el-traje-original-de-Shinobu-Kocho.jpg?fit=1280%2C720&quality=80&ssl=1" class="card-img-top" alt="Shinobu">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="https://depor.com/resizer/4Slos57_um0fBuRNKgnV6RwDTTo=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/2CKZIZ5AD5GHJMDWZFAZ2N3U4E.jpg" class="card-img-top" alt="Mitsuri">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/d/d6/Sanemi_trying_to_make_Nezuko_attack_him.png/revision/latest?cb=20190907165827" class="card-img-top" alt="Sanemi">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </span>
-      <!-- Terminan tarjetas -->
-</body>
+
+    <!-- Carrousel ends -->
+    <link rel="stylesheet" href="./Assets/css.css">
+  </body>
 </html>
