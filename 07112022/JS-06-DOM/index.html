@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM</title>
+</head>
+<body>
+    <h1 id="uno">"---Ejemplo de DOM---"</h1>
+    <p id="dos">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         Animi recusandae quae veritatis deserunt fuga aliquid 
+         quidem perspiciatis aliquam neque minima, 
+         itaque odit voluptatem laudantium omnis, 
+        possimus debitis earum eaque dolores!</p>
+
+        <p id="otro">Soy otro parrafo</p>
+
+        <script>
+            /* nos va a permitir manipular el DOM */
+            let etiqueta = document.getElementById('uno');{
+                /* InnerHTML nos muestra el contenido del elemento (objeto) */
+                console.log("valor de h1 "+ etiqueta.innerHTML);
+            
+            }
+            let parrafo=document.getElementById('dos');
+            console.log('contenido del parrafo: ' +parrafo.innerHTML)
+
+            /* Get element by tagName */
+            let parrafos=document.getElementsByTagName('p');
+            console.log('No. de parrafos: '+ parrafos);
+
+        </script>
+</body>
+</html>

@@ -59,9 +59,9 @@ en la tercera posición imprime lo que tiene el arreglo */
 /* Crear una aplicación JS, recibir una palabra y va a regresar la palabra pero invertida 
 e.g. raul => Luar */
 
-/* split separa elementos 
-reverse revierte los elementos 
-join los une */
+/* split separa elementos y los pone en un arreglo
+reverse revierte los elementos del arreglo
+join los une  y los convierte en un string de vuelta */
 
 let nombre = prompt("cuál es tu nombre?");
 let arrayNombre=nombre.split('');
