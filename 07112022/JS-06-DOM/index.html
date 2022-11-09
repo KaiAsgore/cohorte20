@@ -28,7 +28,11 @@
 
             /* Get element by tagName */
             let parrafos=document.getElementsByTagName('p');
-            console.log('No. de parrafos: '+ parrafos);
+            
+
+            for (let i =0 ;parrafos.length; i++) {
+            console.log('No. de parrafos: '+ parrafos[i].innerHTML);
+            }
 
         </script>
 </body>

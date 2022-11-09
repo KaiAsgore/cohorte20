@@ -1,0 +1,30 @@
+<!-- hacer un formulario que reciba dos valores 
+y que la función sume estos dos valores 
+y nos ponga en el documento la suma. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Suma</h1>
+    <form id="uno">
+        Escribe un número <input type="number" name="numeroUno" value=2> <br>
+        Escribe un segundo número <input type="number" name="numeroDos" value=2>
+        <button onclick="suma()">SUMAR</button>
+        <div id="valores"></div>
+    </form>
+    <script>
+        function suma(){
+            var numero1 = document.getElementById('numeroUno');
+            var numero2 = document.getElementById('numeroDos');
+
+            var resultado = Number(numero1) + Number (numero2);
+        }
+    document.getElementById('valores').innerHTML= texto;
+    </script>
+</body>
+</html>

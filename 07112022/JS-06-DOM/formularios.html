@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Datos personales</h1>
+    <form id="formulario">
+        Nombre <input type="text" name="nombre" value="Juan"><br>
+        Apellido <input type="text" name="apellido" value="Perez">
+    </form>
+    <button onclick="mostrarValores()">Mostrar</button>
+    <div id="valores"></div>
+    <script>
+        /* Nos está ayudando a que podamos recoger los 
+        valores del form. el programa va a tomar la 
+        información de los formularios para almacenarlo 
+        en una variable. Dicha variable con la función 
+        document hará que su información se escriba 
+        en la página.  */
+        function mostrarValores(){
+            /* Se creó una variable que tiene como información 
+            del documento con la tag 'forms' la que tiene ID de
+            formulario. */
+            let formulario=document.forms['formulario'];
+            /* Se crea una variable "vacía" de texto. */
+            let texto = ' ';
+            /* se crea un loop donde la condición es la variable 
+            'elemento' la cuál va a obtener información de la 
+            variable formulario (que a su vez toma la información
+            de la forma creada anteriormente) */
+            /* FOR-OF: palabra reservada que hace que la función 
+            recorra todo el formulario. */
+            for (let elemento of formulario) {
+                /* a la variable 'texto', la cuál se encuentra
+                previamente vacía, se le va a asignar el valor de
+                los elementos de la variable 'elemento'*/
+                texto += elemento.value + '<br/>';
+            }
+            /* Se van a 'imprimir' los elementos en el div "valores",
+            con el comando .innerHTML lo que está dentro del form se concatena
+            y todo es igual a la información de la variable texto. */
+            document.getElementById('valores').innerHTML = texto;
+        }
+    </script>
+</body>
+</html>
